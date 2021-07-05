@@ -1,0 +1,46 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+/********************************************************CONTAINERS STYLES**********************************************************/
+
+.container{
+    max-width: 1920px;
+}
+
+.header{
+    background-color: #7C4DF0;
+    width: 100%;
+    height: 7%;
+}
+
+.landing{
+    width: 100%;
+    height: 30%;
+    background-color: #FFD323;
+}
+
+.content{
+    width: 100%;
+    height: 63%;
+    background-color: black;
+}
+
+/********************************************************BUTTONS STYLES**********************************************************/
+
+.btn-menu{
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+/*******************************************************RESPONSIVE**************************************************************/
+
+@media only screen and (min-width: 768px) {
+    .container-fluid{
+        position: relative;
+        margin-top: -0.5rem;
+    }
+}
